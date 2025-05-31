@@ -1,0 +1,71 @@
+.about-section {
+    padding: 4rem 2rem;
+    min-height: 100vh;
+}
+  
+.about-heading {
+    text-align: center;
+    font-family: 'dogica', sans-serif;
+    font-size: 1.5rem;
+}
+  
+.about-summary {
+    max-width: 600px;
+    margin: 0 auto 4rem;
+    text-align: center;
+    font-family: 'dogica', sans-serif;
+    font-size: .75rem;
+    line-height: 1.6;
+}
+  
+.content-box-left {
+    font-family: 'dogica', sans-serif;
+    background: #5971943d;
+    border: 1px solid #597394;
+    border-radius: 12px;
+    padding: 1rem 1rem;
+    position: relative;
+    margin: 1rem;
+}
+
+.content-box-right {
+    font-family: 'dogica', sans-serif;
+    background: #5971943d;
+    border: 1px solid #597394;
+    border-radius: 12px;
+    padding: 1rem 1rem;
+    position: relative;
+    margin: 1rem;
+}
+  
+.content-box-left h3 {
+    margin-top: 15px;
+    color: #597394;
+    font-size: .75rem;
+}
+  
+.content-box-right h3 {
+    margin-top: 15px;
+    color: #597394;
+    font-size: .75rem;
+}
+
+.arrow-image {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    margin: 0 auto 0.5rem;
+}
+  
+.experience-box.left .arrow-image {
+    margin-left: 81%;
+    margin-top: -3%;
+    transform: rotate(25deg)
+}
+  
+.experience-box.right .arrow-image {
+    margin-left: 7%;
+    margin-top: -3%;
+    transform: rotate(-25deg)
+}
+  

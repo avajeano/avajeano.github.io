@@ -1,0 +1,28 @@
+.home-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 1rem;
+  text-align: center;
+} 
+  
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-title {
+  font-family: 'organical', sans-serif;
+  font-size: 6rem;
+  margin: 0;
+}
+  
+.role-subtitle {
+  font-family: 'dogica', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+  
