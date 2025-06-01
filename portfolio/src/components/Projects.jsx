@@ -21,7 +21,7 @@ function Projects() {
                         
                         <div className="project-info">
                             <div className="project-links">
-                            <a href="https://github.com/semantic_book_recommender" className="project-button" target="_blank">GitHub Repo</a>
+                            <a href="https://github.com/avajeano/semantic_book_recommender" className="project-button" target="_blank">GitHub Repo</a>
                             </div>
 
                             <div className="project-tags">
@@ -46,7 +46,7 @@ function Projects() {
                         
                         <div className="project-info">
                             <div className="project-links">
-                            <a href="https://wallstreetsim-live.onrender.com" className="project-button" target="_blank">Deployed Site</a>
+                            <a href="https://wallstreetsim-live.onrender.com" className="project-button" target="_blank">Website</a>
                             <a href="https://github.com/avajeano/wallstreetsim" className="project-button" target="_blank">GitHub Repo</a>
                             </div>
 
@@ -74,7 +74,7 @@ function Projects() {
                         
                         <div className="project-info">
                             <div className="project-links">
-                            <a href="https://goodfeed.onrender.com" className="project-button" target="_blank">Deployed Site</a>
+                            <a href="https://goodfeed.onrender.com" className="project-button" target="_blank">Website</a>
                             <a href="https://github.com/avajeano/goodfeed" className="project-button" target="_blank">GitHub Repo</a>
                             </div>
 
@@ -100,7 +100,7 @@ function Projects() {
                         
                         <div className="project-info">
                             <div className="project-links">
-                            <a href="https://docs.google.com/spreadsheets/d/1j3MhIKRJ8vZsminXZp3LlBsw4IpW49_J3q_Td5omtXY/edit?usp=sharing" className="project-button" target="_blank">Deployed Site</a>
+                            <a href="https://docs.google.com/spreadsheets/d/1j3MhIKRJ8vZsminXZp3LlBsw4IpW49_J3q_Td5omtXY/edit?usp=sharing" className="project-button" target="_blank">Website</a>
                             </div>
 
                         </div>
