@@ -1,0 +1,111 @@
+.projects-section {
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.projects-heading {
+    text-align: center;
+    font-family: 'dogica', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* container for all project cards */
+.project-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+  
+.project-box {
+    width: 100%;
+    max-width: 950px;
+}
+  
+/* overall card styling */
+.content-box {
+    background: #5971943d;
+    border: 1px solid #597394;
+    border-radius: 12px;
+    font-family: 'dogica', sans-serif;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 950px;
+    box-sizing: border-box;
+}
+  
+/* project name */
+.content-box h3 {
+    color: #597394;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    margin-top: -.25rem;
+}
+  
+/* flex container for image + info */
+.project-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: nowrap;
+}
+  
+/* image styles */
+  .project-image {
+    width: 550px;
+    border-radius: 12px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+  
+/* right-side column (buttons + list) */
+.project-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+  
+/* buttons */
+.project-links {
+    display: flex;
+    gap: 1rem;
+}
+  
+.project-button {
+    font-family: 'dogica', sans-serif;
+    font-size: 0.6rem;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #597394;
+    border-radius: 8px;
+    background-color: #5973941a;
+    color: #597394;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+  
+.project-button:hover {
+    color: #c03c29;
+}
+  
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+  
+.tag {
+    background-color: #597394;
+    color: #d6d0c5;
+    font-family: 'dogica', sans-serif;
+    font-size: 0.65rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 999px;
+    white-space: nowrap;
+}
+  
