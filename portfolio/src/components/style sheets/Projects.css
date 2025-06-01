@@ -1,5 +1,5 @@
 .projects-section {
-    padding: 4rem 2rem;
+    padding: .5rem 2rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
   
 .projects-heading {
     text-align: center;
+    margin-top: auto;
     font-family: 'dogica', sans-serif;
     font-size: 1.5rem;
 }
@@ -22,7 +23,8 @@
   
 .project-box {
     width: 100%;
-    max-width: 950px;
+    padding: 0 1rem;
+    box-sizing: border-box;
 }
   
 /* overall card styling */
@@ -34,6 +36,8 @@
     padding: 1.5rem;
     width: 100%;
     max-width: 950px;
+    margin: 0 auto;
+    padding: 1.5rem;
     box-sizing: border-box;
 }
   
@@ -48,14 +52,18 @@
 /* flex container for image + info */
 .project-content {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     gap: 2rem;
     flex-wrap: nowrap;
+    width: 100%;
+    box-sizing: border-box;
 }
   
 /* image styles */
-  .project-image {
-    width: 550px;
+.project-image {
+    width: 100%;
+    max-width: 500px;
     border-radius: 12px;
     object-fit: cover;
     flex-shrink: 0;
@@ -66,9 +74,8 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
     gap: 1rem;
+    box-sizing: border-box;
 }
   
 /* buttons */
@@ -139,6 +146,20 @@
   
     .project-tags {
       justify-content: center;
+    }
+
+    .project-box {
+        width: 100%;
+        padding: 0 1rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+    }
+      
+      .content-box {
+        width: 100%;
+        max-width: 600px;
+        box-sizing: border-box;
     }
 }
   
