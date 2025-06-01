@@ -17,16 +17,17 @@
     display: flex;
     gap: 2rem;
     justify-content: center;
-    flex-wrap: wrap;
+    margin-top: 1rem;
   }
   
   .social-icon {
-    width: 40px;
-    height: 40px;
+    font-size: 3rem;
+    color: #597394;
     transition: transform 0.3s ease;
   }
   
   .social-icon:hover {
     transform: scale(1.2);
+    color: #c03c29;
   }
   
