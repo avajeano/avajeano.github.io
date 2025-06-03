@@ -39,7 +39,7 @@ function About() {
                     <img src={Arrow} alt="arrow" className="arrow-image" />
                     <div className="content-box">
                         <h3>freeCodeCamp</h3>
-                        <p>dabled in the basics during covid</p>
+                        <p>dabbled in the basics during covid</p>
                     </div>
                 </div>
 
