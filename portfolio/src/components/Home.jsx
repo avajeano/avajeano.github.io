@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../index.css';
 import './style sheets/Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 const roles = ["Software Engineer", "Web Developer", "Solutions Engineer", "Full-Stack Engineer"]
 
@@ -21,7 +21,7 @@ function Home() {
             <section className='home-section' id='home'>
                 <div className='home-wrapper'>
                     <div className='home-content'>
-                        <h1 className='name-title'>Ava Isaacson</h1>
+                        <h1 className='name-title'>AVA ISAACSON</h1>
                         <h2 className='role-subtitle'>{roles[currentRoleIndex]}</h2>
                     </div>
 
