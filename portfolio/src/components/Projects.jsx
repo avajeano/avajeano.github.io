@@ -33,6 +33,12 @@ function Projects() {
                                 <span className="tag">Hugging Face Transformers</span>
                             </div>
 
+                            <div className="description">
+                                <p>
+                                A semantic book recommendation tool that uses the OpenAI API to match users with titles based on meaning, not keywords. Leverages embedding models to surface similar books from a custom dataset, enabling more intuitive, context-aware discovery.
+                                </p>
+                            </div>
+
                         </div>
                         </div>
                     </div>
@@ -61,6 +67,12 @@ function Projects() {
                                 <span className="tag">Bootstrap</span>
                             </div>
 
+                            <div className="description">
+                                <p>
+                                    A dynamic stock market simulation platform that empowers users to manage a mock investment portfolio. Integrating Alpha Vantage’s Time Series Daily API to deliver daily stock data.
+                                </p>
+                            </div>
+
                         </div>
                         </div>
                     </div>
@@ -87,6 +99,12 @@ function Projects() {
                                 <span className="tag">Bootstrap</span>
                             </div>
 
+                            <div className="description">
+                                <p>
+                                    An interactive restaurant discovery platform that lets users explore spots by borough and cuisine, leave reviews and follow friends. Built using NYC's open-source restaurant data API for real time exploration. 
+                                </p>
+                            </div>
+
                         </div>
                         </div>
                     </div>
@@ -101,6 +119,12 @@ function Projects() {
                         <div className="project-info">
                             <div className="project-links">
                             <a href="https://docs.google.com/spreadsheets/d/1j3MhIKRJ8vZsminXZp3LlBsw4IpW49_J3q_Td5omtXY/edit?usp=sharing" className="project-button" target="_blank">Website</a>
+                            </div>
+
+                            <div className="description">
+                                <p>
+                                    A curated restaurant tracking spreadsheet designed for personal exploration, featuring sortable columns for cuisine, neighborhood, Michelin recognition, awards, price range, and personal reviews
+                                </p>
                             </div>
 
                         </div>

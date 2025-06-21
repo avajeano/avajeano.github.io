@@ -116,6 +116,10 @@
     white-space: nowrap;
 }
 
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* mobile */
 @media (max-width: 768px) {
     .project-content {
